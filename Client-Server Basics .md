@@ -157,3 +157,9 @@ I also learned that `ping` checks connectivity rather than creating a connection
 * Browsers automatically make multiple GET requests to load a page.
 * URLs are made of several components that identify how and where a resource is requested.
 * Basic networking tools provide different kinds of information about connectivity, routing, and DNS.
+
+![Firefox Developer Tools](images/http-get-network-inspector.png).
+Figure 1. Firefox Developer Tools showing multiple HTTP GET requests generated while loading a webpage.
+
+![HTTP Response](images/http-get-response-200.png)
+Figure 2. Inspecting an HTTP GET request returned a 200 OK status and displayed both request headers and response headers.
