@@ -163,3 +163,14 @@ Figure 1. Firefox Developer Tools showing multiple HTTP GET requests generated w
 
 ![HTTP Response](images/http-get-response-200.png)
 Figure 2. Inspecting an HTTP GET request returned a 200 OK status and displayed both request headers and response headers.
+
+
+
+## Security Perspective
+
+This lab showed me how browsers communicate with web servers using HTTP requests.
+
+From a cybersecurity perspective, understanding this traffic is important because analysts often inspect HTTP requests and responses to detect suspicious behaviour, malicious downloads, web attacks, or unexpected communications between clients and servers.
+
+This foundation will be useful later when learning packet analysis with Wireshark and investigating network traffic in a SOC environment.
+
