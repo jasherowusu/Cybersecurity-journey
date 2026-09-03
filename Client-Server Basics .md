@@ -172,5 +172,86 @@ This lab showed me how browsers communicate with web servers using HTTP requests
 
 From a cybersecurity perspective, understanding this traffic is important because analysts often inspect HTTP requests and responses to detect suspicious behaviour, malicious downloads, web attacks, or unexpected communications between clients and servers.
 
-This foundation will be useful later when learning packet analysis with Wireshark and investigating network traffic in a SOC environment.
+This foundation will be useful later when learning packet analysis with Wireshark and investigating network traffic in a SOC environment.     
+
+
+
+
+
+
+
+## Commands Practiced
+
+### ping
+
+```bash
+ping google.com
+```
+
+**Purpose**
+
+Checks whether a remote host is reachable and measures network latency using ICMP Echo Requests.
+
+**What I observed**
+
+The terminal returned replies from Google's server along with response times measured in milliseconds.
+
+---
+
+### traceroute
+
+```bash
+traceroute google.com
+```
+
+**Purpose**
+
+Displays the path packets travel through routers before reaching the destination.
+
+**What I observed**
+
+The output listed multiple hops between my machine and the destination.
+
+---
+
+### whois
+
+```bash
+whois tryhackme.com
+```
+
+**Purpose**
+
+Retrieves publicly available registration information for a domain.
+
+**What I observed**
+
+The output included the registrar, registration dates, and nameserver information.
+
+---
+
+### dig
+
+```bash
+dig tryhackme.com
+```
+
+**Purpose**
+
+Queries DNS records for a domain.
+
+**What I observed**
+
+The command returned the IP address associated with the domain along with DNS record information.
+
+## Reflection
+
+### What clicked for me
+
+The client-server model finally made sense when I compared it to ordering pizza. The client sends a request, the server processes it, and returns a response.
+
+### What confused me
+
+I initially thought an HTTP GET request was used to retrieve company registration information. After completing the lab, I understood that GET requests retrieve web resources, while WHOIS retrieves domain registration information.
+
 
