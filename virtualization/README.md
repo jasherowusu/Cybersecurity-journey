@@ -1,71 +1,86 @@
-# Virtualization
+# Virtualization — TryHackMe (Pre Security)
+
+## Overview
+
+This lab introduced virtualization and virtual machines. I learned how multiple operating systems can run on one physical computer and why virtualization is widely used in cybersecurity.
+
+**Platform:** TryHackMe — Pre Security
+
+**Status:** Completed ✅
+
+---
+
+## Objective
+
+Understand how virtualization works, identify the difference between a host and a guest operating system, and explain why virtual machines are useful in cybersecurity.
+
+---
+
+## Environment
+
+* Host Operating System: Windows
+* Virtualization Software: VMware
+* Guest Operating System: Ubuntu Linux
+
+---
 
 ## What I Learned
 
-- 
-- 
-- 
-
-## Key Concepts
-
 ### Virtualization
 
-My understanding:
+Virtualization is the technology that allows one physical computer to create and run multiple isolated virtual machines.
 
-### Virtual Machine
+### Virtual Machine (VM)
 
-My understanding:
+A virtual machine is a software-based computer that behaves like a physical computer. It has its own operating system, storage, memory, and networking.
 
 ### Host
 
-My understanding:
+The host is the physical computer that provides hardware resources to virtual machines.
 
 ### Guest
 
-My understanding:
+The guest is the operating system running inside the virtual machine.
 
-## Hands-On Practice
+---
 
-Commands/tools I used:
+## Why Virtualization Matters in Cybersecurity
 
-bash
-whoami
-hostname
-uname -a
-ip addr
+* Safe environment for testing malware and security tools.
+* Reduces hardware costs.
+* Allows multiple operating systems to run simultaneously.
+* Makes creating and resetting lab environments much faster.
+* Supports portability and scalability for cybersecurity labs.
 
+---
 
+## Security Perspective
 
+Virtualization provides isolation between the host and guest operating systems. If a guest machine becomes infected with malware, the host is usually protected because the VM is isolated.
 
-Virtualization is the technology that allows one physical computer (the host) to create and run multiple isolated virtual computers (virtual machines), each with its own operating system and resources. 
+However, virtualization software can occasionally contain vulnerabilities that allow a VM escape attack, so isolation is strong but not absolute.
 
-A virtual machine (VM) is a software-based computer that behaves like a real computer. It has its own operating system, memory, storage, CPU allocation, and network connection, but it runs inside a host machine. 
+---
 
-host- The host is the physical computer that provides hardware resources (CPU, RAM, storage, networking) to virtual machines through a hypervisor such as VMware or VirtualBox. 
-Guest- A guest is the operating system running inside a virtual machine. 
+## Evidence
 
+### Ubuntu Virtual Machine
 
+Screenshot showing Ubuntu running as a guest operating system inside VMware.
 
-Benefit                                            Cybersecurity Example
-Safe Testing                                       Run malware without infecting the host.
-Cost Saving                                        No need to buy three physical computers.
-Flexibility                                        Run Ubuntu, Kali, Windows simultaneously.
-Portability                                        Move a VM to another computer.
-Faster Deployment                                  Create or clone VMs quickly.
-Scalability                                        Add more VMs as needed.
-Centralized Management                             Manage multiple VMs from one host.
+---
 
+## Reflection
 
+### What clicked for me
 
+I now understand the difference between a physical computer (host) and a virtual machine (guest).
 
+### What confused me
 
-If the Guest Gets Compromised...
-Isolation protects the host most of the time
+I originally assumed the host would always be safe if the guest was compromised. I learned that virtualization provides isolation, but vulnerabilities can still exist.
 
-Normally
+### Next Step
 
-The host is protected because the VM is isolated.
+Learn networking inside virtual machines and understand how virtual machines communicate with each other.
 
-However, if there's a vulnerability in the virtualization software (VMware/VirtualBox/Hyper-V), attackers can sometimes perform a VM Escape and reach the host.
-
-Isolation- Isolation means the guest operating system runs in its own separate environment with dedicated virtual resources. Activities inside the VM normally do not directly affect the host or other virtual machines.
