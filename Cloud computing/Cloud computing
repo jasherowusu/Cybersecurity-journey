@@ -1,1 +1,204 @@
+What is Cloud Computing?
+Cloud computing is the delivery of computing resources such as servers, storage, networking, databases, and applications over the internet.
+It allows individuals and organizations to access and use computing resources without owning and managing all of the physical hardware themselves.
 
+Cloud Service Provider
+A cloud service provider is a company that provides cloud computing services such as computing power, storage, networking, databases, and software over the internet.
+
+On-Premise vs Cloud Computing
+On-Premise Computing
+In an on-premise environment, an organization owns or operates its computing infrastructure and is responsible for managing and maintaining the physical systems.
+
+Cloud Computing
+In cloud computing, infrastructure and computing services are provided remotely by a cloud service provider.
+
+The amount of responsibility the customer has depends on the type of cloud service being used.
+
+
+
+
+Cloud Service Models
+IaaS — Infrastructure as a Service
+Infrastructure as a Service provides basic computing resources such as virtual servers, storage, and networking.
+The cloud provider manages the underlying physical infrastructure, while the customer is responsible for managing the operating system, applications, and software running on the virtual machines.
+
+Example
+You rent a virtual computer, but you manage what runs inside it.
+
+
+
+PaaS — Platform as a Service
+
+Platform as a Service provides a managed environment for building and deploying applications.
+The cloud provider manages the underlying infrastructure and operating system, allowing developers to focus on building and running their applications.
+
+Example
+You focus on building your application without managing the underlying servers.
+
+
+SaaS — Software as a Service
+Software as a Service provides complete software applications over the internet.
+Users access the software through a website or application while the provider manages the underlying infrastructure and software.
+
+Examples
+Gmail
+Zoom
+Simple Example
+
+You simply use the finished software.
+
+
+
+
+
+
+Cloud Deployment Models
+Public Cloud
+A public cloud provides computing resources through infrastructure owned and operated by a cloud provider.
+Public cloud services are commonly used because they can be:
+Cost-effective
+Scalable
+Flexible
+
+Organizations do not need to own the underlying physical infrastructure.
+
+
+
+
+
+
+
+
+
+Private Cloud
+
+A private cloud is a cloud environment dedicated to a single organization.
+
+It can provide:
+Greater control
+Customization
+Support for security and compliance requirements
+
+Private clouds may be useful for organizations handling sensitive information.
+
+Examples include:
+Banks
+Healthcare organizations
+Government organizations
+
+
+
+
+
+
+
+Hybrid Cloud
+A hybrid cloud combines private and public cloud environments.
+Organizations can keep sensitive workloads or data in a private environment while using public cloud resources when additional scalability is needed.
+
+Example
+An e-commerce company may keep sensitive customer information in a private environment while using public cloud resources to handle increased website traffic.
+
+
+
+
+
+
+
+
+
+
+
+Benefits of Cloud Computing
+Scalability
+Cloud resources can be scaled up or down depending on the needs of an application.
+
+On-Demand Self-Service
+Users can create or remove resources such as servers and storage when needed without purchasing new physical hardware.
+
+Pay for What You Use
+Organizations can pay based on the computing resources they consume instead of purchasing all infrastructure upfront.
+
+Security
+Cloud providers secure parts of the underlying infrastructure.
+
+However, organizations are still responsible for securing their own accounts, configurations, applications, and data depending on the service model.
+
+High Availability
+Cloud infrastructure can be designed with redundancy to help applications remain available even if part of the infrastructure fails.
+
+Global Access
+Applications and services can be accessed from different locations through the internet.
+
+
+
+
+
+
+
+Hands-On Practice
+
+During this lab, I used a simulated cloud console to explore cloud virtual machines and understand how cloud resources affect running costs.
+
+I worked with different virtual machine instance types and observed how the cost changes depending on the number and type of instances running.
+
+The environment included multiple virtual machines with different instance sizes.
+
+I learned that:
+Different VM sizes have different running costs.
+Running more instances increases the total monthly cost.
+Stopping unused virtual machines can help reduce costs.
+Cloud resources should be selected based on the needs of the application.
+
+
+Evidence
+Cloud Virtual Machine Console
+
+Figure 1: Simulated cloud console showing multiple running virtual machines and their associated monthly costs.
+
+Cloud Cost Calculation
+
+Figure 2: Hands-on exercise demonstrating how adding additional virtual machine instances affects the total running cost of a cloud environment.
+
+
+
+
+
+
+
+
+
+
+
+
+Why Cloud Computing Matters in Cybersecurity
+
+Cloud computing is important in cybersecurity because many organizations store data, run applications, and use computing resources in cloud environments.
+
+Cybersecurity professionals need to understand cloud environments to help protect:
+
+User accounts and identities
+Sensitive data
+Applications
+Virtual machines
+Networks
+Cloud configurations
+
+Moving infrastructure to the cloud does not remove security responsibility. Instead, it changes how security needs to be managed.
+
+
+
+
+
+Key Takeaways
+
+After completing this lab, I can explain:
+
+What cloud computing is
+What a cloud service provider is
+The difference between on-premise and cloud computing
+IaaS, PaaS, and SaaS
+Public, private, and hybrid cloud models
+The benefits of cloud computing
+How cloud virtual machines can affect operational costs
+Why cloud computing is relevant to cybersecurity
