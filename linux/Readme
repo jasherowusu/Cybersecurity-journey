@@ -1,0 +1,40 @@
+# 🐧 Linux Command Line Fundamentals
+
+## Overview
+
+As part of the TryHackMe Pre-Security learning path, I learned the fundamentals of using the Linux Command Line Interface (CLI).
+
+The exercises involved navigating the Linux filesystem, finding and reading files, identifying the current user and operating system, checking disk usage, and exploring the `/etc` directory.
+
+This was my first practical exposure to using the Linux terminal for system interaction and basic investigation.
+
+**Platform:** TryHackMe  
+**Learning Path:** Pre-Security  
+**Topic:** Operating Systems / Linux CLI  
+**Status:** Completed 
+
+---
+
+## What is the Linux CLI?
+
+The Linux Command Line Interface (CLI) is a text-based way of interacting with a Linux operating system.
+
+Instead of relying on a graphical interface, commands can be entered into the terminal to navigate the filesystem, inspect files, retrieve system information, and perform administrative tasks.
+
+---
+
+# Commands Practiced
+
+| Command | What I learned |
+|---|---|
+| `pwd` | Displays the current working directory |
+| `ls` | Lists the contents of the current directory |
+| `ls -l` | Displays a detailed listing of files and directories |
+| `cd` | Changes the current directory |
+| `cd ..` | Moves up one directory level |
+| `find` | Searches for files and directories |
+| `cat` | Displays the contents of a file |
+| `whoami` | Displays the currently logged-in user |
+| `uname` | Displays the Linux kernel name |
+| `uname -a` | Displays detailed kernel and system information |
+| `df -h` | Displays filesystem disk usage in human-readable format |
