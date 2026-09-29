@@ -38,3 +38,60 @@ Instead of relying on a graphical interface, commands can be entered into the te
 | `uname` | Displays the Linux kernel name |
 | `uname -a` | Displays detailed kernel and system information |
 | `df -h` | Displays filesystem disk usage in human-readable format |
+
+
+# Practical Exercises
+
+## 1. Navigating the Filesystem
+
+I practiced using `pwd`, `ls`, and `cd` to understand where I was within the filesystem and move between directories.
+
+For example:
+
+```bash
+pwd
+ls
+cd Documents
+cd ..
+
+I learned that Linux organizes files and directories in a hierarchical filesystem, and that commands can be used to move through this structure.
+
+
+Finding and Reading Files
+
+I used the find command to locate a specific file:
+find ~ -name mission_brief.txt
+The command searched from my home directory and located the file.
+
+I then navigated to the directory containing the file and used cat to read its contents:
+cat mission_brief.txt
+This exercise helped me understand how to locate files and inspect their contents from the terminal.
+
+
+
+Identifying the Current User and System
+
+I practiced commands for gathering basic information about the system:
+
+whoami
+uname
+uname -a
+
+whoami showed which user account I was currently using, while uname and uname -a provided information about the Linux kernel and system.
+
+
+Checking Disk Usage
+
+I used:
+df -h
+The -h option displays the results in a human-readable format.
+This allowed me to see information about the filesystems, including their total size, used space, available space, and percentage of space used.
+
+
+Exploring /etc
+I navigated to the /etc directory:
+cd /etc
+ls
+
+I learned that /etc contains many system-wide configuration files and directories.
+Exploring this directory gave me a better understanding of how Linux stores configuration information.
