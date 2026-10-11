@@ -1,1 +1,80 @@
+# Windows Command Line (CLI) Basics
+
+## Overview
+
+As part of the TryHackMe Pre-Security learning path, I studied the fundamentals of using the Windows Command Line Interface (CLI).
+
+I learned how to navigate directories, list files, identify hidden files, search through directories, read text files, and retrieve basic system and network information.
+
+**Platform:** TryHackMe
+**Learning Path:** Pre-Security
+**Topic:** Windows CLI Basics
+**Status:** Completed
+
+## Commands Learned
+
+| Command             | Purpose                                                                  |
+| ------------------- | ------------------------------------------------------------------------ |
+| `cd`                | Displays or changes the current directory.                               |
+| `cd ..`             | Moves up one directory level.                                            |
+| `dir`               | Lists files and directories.                                             |
+| `dir /a`            | Lists files and directories, including hidden and system entries.        |
+| `cd foldername`     | Navigates into a specified directory.                                    |
+| `dir /s`            | Lists files and subdirectories recursively.                              |
+| `type filename.txt` | Displays the contents of a text file.                                    |
+| `whoami`            | Displays the current user account.                                       |
+| `hostname`          | Displays the computer's hostname.                                        |
+| `systeminfo`        | Displays detailed system information, including Windows version details. |
+| `ipconfig`          | Displays IP address and network adapter configuration information.       |
+
+## Practical Skills
+
+### 1. Directory Navigation
+
+I learned to use `cd` and `cd ..` to navigate the Windows filesystem and move between directories.
+
+### 2. Listing and Finding Files
+
+I used `dir` to list directory contents and `dir /a` to display hidden and system entries.
+
+I also learned that `dir /s` can list files recursively through subdirectories. To look for a specific filename, a filename can be added to the command.
+
+### 3. Reading Files
+
+I learned to use the `type` command to display the contents of a text file directly in Command Prompt.
+
+### 4. Identifying the User and Computer
+
+I learned to use `whoami` to identify the current user and `hostname` to retrieve the computer's name.
+
+### 5. Gathering System Information
+
+I learned that `systeminfo` displays detailed information about the Windows system, including operating system details.
+
+### 6. Inspecting Network Configuration
+
+I learned to use `ipconfig` to inspect network configuration, including IP addresses and network adapters.
+
+## Why These Skills Matter in Cybersecurity
+
+Command-line skills help cybersecurity professionals investigate systems, understand their configurations, inspect files, and troubleshoot problems.
+
+These fundamentals provide a foundation for learning Windows administration, security monitoring, incident response, and further security investigations.
+
+## Key Takeaways
+
+* Navigate directories using Command Prompt.
+* List files and inspect hidden entries.
+* Understand recursive directory listings.
+* Read text files using the terminal.
+* Identify the current user and computer.
+* Retrieve Windows system information.
+* Inspect basic network configuration.
+
+## Reflection
+
+This lesson introduced me to practical Windows command-line operations. I learned that the CLI provides a direct way to interact with a computer and retrieve information without relying entirely on a graphical interface.
+
+My next goal is to practise these commands repeatedly so that I can recall and apply them confidently in future cybersecurity labs.
+
 
