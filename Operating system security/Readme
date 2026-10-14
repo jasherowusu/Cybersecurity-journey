@@ -1,1 +1,95 @@
+# Operating System Security
+
+## Overview
+
+This section of my CyberSec learning journey covers operating system security through TryHackMe Pre Security.
+
+I learned how weak passwords, insecure file permissions, and malicious programs can expose computer systems to security risks.
+
+## Key Concepts
+
+### 1. Authentication
+
+Authentication is the process of verifying a user's identity. It can be performed during local login or remote access.
+
+Passwords and cryptographic keys are examples of authentication methods.
+
+### 2. Weak Passwords
+
+Weak or predictable passwords can allow an attacker to gain access to an account.
+
+**Lab activity recalled:** I successfully guessed the password `abc123`, gained access to the lab system, and used the `cat` command to read a file.
+
+This demonstrated how a weak password can expose information to someone who should not have access.
+
+### 3. Remote Access and SSH
+
+Secure Shell (SSH) is a protocol commonly used to access and administer Linux systems remotely through a command-line interface.
+
+Remote access should be protected through strong authentication, secure configuration, and appropriate access controls.
+
+### Practical Lab Activity: Remote Linux Access
+
+During the TryHackMe Operating System Security practice, I used **SSH (Secure Shell)** to connect to a remote Linux system.
+
+I successfully guessed the password `abc123` and gained access to the lab environment. After logging in, I used the Linux `cat` command to read a file.
+
+**What I learned:**
+
+* SSH enables remote command-line access to Linux systems.
+* Weak passwords can make accounts vulnerable to unauthorised access.
+* Successful authentication provides access under the permissions of the account used.
+* The `cat` command displays file contents when the account has permission to read them.
+
+
+
+
+### 4. File Permissions
+
+Linux file permissions control who can read, write, or execute files.
+
+Incorrect permissions can expose sensitive information or allow unauthorised changes. Access should be restricted to the users and processes that require it.
+
+### 5. Principle of Least Privilege
+
+The principle of least privilege means giving each user or process only the permissions necessary to perform its tasks.
+
+This reduces the potential damage caused by compromised accounts or malicious software.
+
+### 6. Linux Commands Reviewed
+
+| Command        | Purpose                                                                        |
+| -------------- | ------------------------------------------------------------------------------ |
+| `cat filename` | Displays a file's contents, subject to permissions.                            |
+| `history`      | Displays commands recorded in the current shell's history.                     |
+| `whoami`       | Displays the current effective username.                                       |
+| `su -`         | Attempts to switch to the root account with a login environment, if permitted. |
+
+These commands were reviewed as part of my learning.
+
+## Security Lessons
+
+* Weak passwords can compromise account security.
+* Authentication and authorisation serve different purposes.
+* File permissions help protect information from unauthorised access.
+* Remote access services should be securely configured.
+* Administrative privileges should be limited to tasks that require them.
+* Malicious programs can threaten system confidentiality, integrity, and availability.
+
+## Evidence and Reflection
+
+I recall successfully guessing the lab password `abc123` and using `cat` to read a file after gaining access.
+
+* Practise Linux file permissions in my own Ubuntu virtual machine.
+* Review Linux user accounts and privilege levels.
+* Learn how SSH authentication works in an authorised practice environment.
+* Revisit the TryHackMe lesson to recover additional details where possible.
+
+## Skills Practised or Reviewed
+
+* Operating system security fundamentals
+* Authentication and authorisation
+* Linux command-line concepts
+* File permissions and least privilege
+* Security awareness around weak passwords
 
